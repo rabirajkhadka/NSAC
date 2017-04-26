@@ -5,11 +5,11 @@ You can use the this search portal to have a great insight about complex technic
 Isn't that coooool 
 If you want to contribute to the project then please send us a pull request :) 
 
-### Markdown
+### Contributors
 
 
-```markdown
-Syntax highlighted code block
+```
+
 
 Developers
 - Pooja Shrestha
