@@ -143,16 +143,6 @@
             </ul>
         </nav>
         <!-- /#sidebar-wrapper -->
-    <div class='container'>
-      <div class='search-container'>
-        <input placeholder='search' type='text'>
-        <a class='button w3-button w3-circlecustom w3-custom'>
-         <button name="searchbutton"class="w3-button w3-circlecustom w3-custom "></button>
-          <i class='icon-search'></i>
-        </a>
-      </div>
-      
-    </div>
 
         <!-- Page Content -->
         <div id="page-content-wrapper">
@@ -177,11 +167,7 @@
     <!-- /#wrapper -->
 <script src="http://code.jquery.com/jquery-1.11.0.min.js"></script>
     <script>
- /* $("button").
-  click(function(){
-    $("input").trigger("select");
-    alert("Rabi Raj Khadka");
-});*/
+
 
 $("button").filter(function() {
   return this.name.match(/searchbutton/);
