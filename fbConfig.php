@@ -16,7 +16,8 @@ use Facebook\Exceptions\FacebookSDKException;
  */
 $appId 			= '1709448872681221'; //Facebook App ID
 $appSecret 		= '923671a77e00f91861fcc0c99a7c264d'; //Facebook App Secret
-$redirectURL 	= 'http://localhost/NSAC_17/'; //Callback URL
+//$redirectURL 	= 'http://localhost/NSAC_17/'; //Callback URL
+$redirectURL 	= 'http:nsac.azurewebsites.net'; //Callback URL
 $fbPermissions 	= array('email');  //Optional permissions
 
 $fb = new Facebook(array(
