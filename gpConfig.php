@@ -11,7 +11,7 @@ include_once 'src/contrib/Google_Oauth2Service.php';
 $clientId = '1055810625384-n3suohvt9l876ored7hmkfve3g85pq84.apps.googleusercontent.com'; //Google client ID
 $clientSecret = '2Obv5SGrmbLIUYE7JG3MWUyz'; //Google client secret
 //$redirectURL = 'http://localhost/NSAC_17/'; //Callback URL
-$redirectURL = 'https://nsac.azurewebsites.net/'; //Callback URL
+$redirectURL = 'http://nsac.azurewebsites.net/'; //Callback URL
 //Call Google API
 $gClient = new Google_Client();
 $gClient->setApplicationName('Login to CodexWorld.com');
